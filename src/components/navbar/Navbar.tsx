@@ -10,11 +10,11 @@ const Navbar = () => {
         <span>EventFull</span>
       </div>
       <div className="icons">
-        <AiOutlineSearch className="icon" />
-        <AiOutlineAppstore className="icon" />
-        <AiOutlineExpandAlt className="icon" />
+        <AiOutlineSearch className="icon"  size={"24px"} />
+        <AiOutlineAppstore className="icon"  size={"24px"} />
+        <AiOutlineExpandAlt className="icon" size={"24px"} />
         <div className="notification">
-          <AiOutlineBell />
+          <AiOutlineBell  size={"24px"} />
           <span>1</span>
         </div>
         <div className="user">
@@ -24,7 +24,7 @@ const Navbar = () => {
           />
           <span>Jane</span>
         </div>
-        <AiOutlineSetting className="icon" />
+        <AiOutlineSetting className="icon"  size={"24px"} />
       </div>
     </div>
   );
