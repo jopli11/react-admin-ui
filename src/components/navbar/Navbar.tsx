@@ -1,18 +1,20 @@
 import "./navbar.scss";
 
+import { AiOutlineSearch, AiOutlineAppstore, AiOutlineExpandAlt, AiOutlineBell, AiOutlineSetting } from 'react-icons/ai';
+
 const Navbar = () => {
   return (
     <div className="navbar">
       <div className="logo">
-        <img src="logo.svg" alt="" />
-        <span>lamadmin</span>
+        <img src="https://framerusercontent.com/images/inOfGpwEKS21e9yRjERGJTMA3g.png?scale-down-to=512" alt="" />
+        <span>EventFull</span>
       </div>
       <div className="icons">
-        <img src="/search.svg" alt="" className="icon" />
-        <img src="/app.svg" alt="" className="icon" />
-        <img src="/expand.svg" alt="" className="icon" />
+        <AiOutlineSearch className="icon" />
+        <AiOutlineAppstore className="icon" />
+        <AiOutlineExpandAlt className="icon" />
         <div className="notification">
-          <img src="/notifications.svg" alt="" />
+          <AiOutlineBell />
           <span>1</span>
         </div>
         <div className="user">
@@ -22,7 +24,7 @@ const Navbar = () => {
           />
           <span>Jane</span>
         </div>
-        <img src="/settings.svg" alt="" className="icon" />
+        <AiOutlineSetting className="icon" />
       </div>
     </div>
   );
