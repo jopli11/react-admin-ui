@@ -20,6 +20,7 @@ a {
 
 .container {
   display: flex;
+  height:100%;
 }
 
 .menuContainer {
@@ -35,4 +36,11 @@ a {
 .contentContainer {
   padding: 5px 20px;
   width: 100%;
+  height:fit-content;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  background-color: $main-bg; /* Add your background color here */
 }
